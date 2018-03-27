@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+              body 
+              {
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              form 
+              {
+                border: 3px solid #f1f1f1;
+              }
+
+              input[type=text], input[type=password] 
+              {
+                  width: 500px;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  box-sizing: border-box;
+              }
+              button 
+              {
+                  background-color: #eda310;
+                  color: white;
+                  padding: 14px 20px;
+                  margin: 8px 0;
+                  border: none;
+                  cursor: pointer;
+                  width: 200px;
+              }
+              button:hover 
+              {
+                  opacity: 0.8;
+              }
+              .container 
+              {
+                  background-color: white;
+                  max-width: 500px;
+                  padding: 16px;
+                  margin:0 auto;
+              }
+      </style>
+  </head>
+  <body bgcolor="#FF6600">
+  <form>
+      <h1 style="background-color:white;color: #FF3300;height:50px;padding-top: 15px;padding-left: 5px;">SUM OCVS</h1>
+
+      <div class="container">
+        <h2>Login Form</h2><hr style="color:lightgray;"><br>
+        <img src="asset/images/user.png" height="100px" width="100px" align="center" style=" margin-left: 190px;"><br>
+        <label for="uname"><b>Username</b></label><br>
+        <input type="text" placeholder="Enter Username" name="uname" required><br>
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Password" name="psw" required><br>
+            
+        <button type="submit" style="align-self: center;">Login</button>
+                Forgot <a href="#">password?</a>
+      </div>
+    </form>
+	
+	
+  </body>
+</html>
